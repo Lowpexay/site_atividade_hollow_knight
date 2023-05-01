@@ -1,0 +1,126 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.primeiro_container {
+    /* border: solid 5px #000; */
+    height: 500px;
+    width: 100%;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/images/HNcapa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+.primeiro_container p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    font-size: 25px;
+}
+
+.segundo_container {
+    /* border: solid 5px #693e3e; */
+    height: 300px;
+    width: auto;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.segundo_container img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.texto_segundo_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    text-align: start;
+}
+
+.link {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    right: 510px;
+    top: 200px;
+    border: solid 2px #000;
+    width: 200%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.texto_terceiro_container {
+    width: 70%;
+    padding: 80px;
+    margin-top: -30px;
+    box-sizing: border-box;
+    text-align: start;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+.terceiro_container img{
+    float: right;
+    margin: 20px;
+    height: 300px;
+    width: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.link_2 {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    left: 0px;
+    top: 10px;
+    border: solid 2px #000;
+    width: 25%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 800;
+    margin-top: 20px;   
+}
+
+.quarto_container {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  margin-top: -130px;
+}
+.quarto_container img {
+    width: 230px;
+  margin: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+  }
